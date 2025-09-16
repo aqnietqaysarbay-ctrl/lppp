@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .container {
+        background-color: white;
+        padding: 40px;
+        width: 80%;
+        height: 600px;
+        margin-left: 70px;
+        margin-bottom: 200px;
+      }
+      .bigphoto {
+        width: 650px;
+      }
+      .web1 {
+        margin-left: 25px;
+      }
+      .web2 {
+        width: 650px;
+        display: flex;
+        flex-direction: row;
+        gap: 90px;
+        margin-left: 25px;
+      }
+      .inside {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        line-height: 1.5;
+      }
+      button {
+        background-color: hsl(5, 85%, 63%);
+        width: 150px;
+        height: 40px;
+        color: black;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: none;
+      }
+      h1 {
+        font-size: 45px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .web3 {
+        background-color: hsl(240, 100%, 5%);
+        color: white;
+        width: 310px;
+        height: 430px;
+        margin-left: 700px;
+        margin-top: -485px;
+        padding: 20px;
+      }
+      h3 {
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: hsl(35, 77%, 62%);
+        margin-top: 20px;
+      }
+      .web4 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+        gap: 60px;
+        margin-top: 20px;
+      }
+      span {
+        color: hsl(5, 85%, 63%);
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+      }
+      .one {
+        display: flex;
+        flex-direction: row;
+        height: 110px;
+      }
+      .two {
+        display: flex;
+        flex-direction: row;
+        height: 110px;
+      }
+      .three {
+        display: flex;
+        flex-direction: row;
+        height: 110px;
+      }
+      .small1 {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.2;
+        padding: 10px;
+        padding-top: 0px;
+      }
+      .top {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+      }
+      .web {
+        margin-left: 540px;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <h1>W.</h1>
+        <div class="web">
+          <p>Home</p>
+          <p>New</p>
+          <p>Popular</p>
+          <p>Trending</p>
+          <p>Categories</p>
+        </div>
+      </div>
+      <div class="web1">
+        <img class="bigphoto" src="./assets/images/image-web-3-desktop.jpg" />
+      </div>
+      <div class="web2">
+        <h1>
+          The Bright <br />Future of<br />
+          Web 3.0?
+        </h1>
+        <div class="inside">
+          <p
+            style="
+              color: grey;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              font-size: 12.5px;
+              margin-top: 20px;
+            "
+          >
+            We dive into the next evolution of the web that <br />
+            claims to put the power of the platforms back<br />
+            into the hands of the people. But is it really <br />fulfilling its
+            promise?
+          </p>
+          <button><b>READ MORE</b></button>
+        </div>
+      </div>
+      <div class="web3">
+        <h3>New</h3>
+        <p
+          style="
+            font-size: 14px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-bottom: 1px solid hsl(236, 13%, 42%);
+            padding-bottom: 10px;
+            color: hsl(236, 13%, 42%);
+            line-height: 1.5;
+            display: flex;
+            flex-direction: column;
+          "
+        >
+          <b style="color: white">Hydrogen VS Electric Cars</b><br />
+          Will hydrogen-fueled cars ever catch up to <br />EVs?
+        </p>
+        <p
+          style="
+            font-size: 14px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-bottom: 1px solid hsl(236, 13%, 42%);
+            padding-bottom: 10px;
+            color: hsl(236, 13%, 42%);
+            line-height: 1.5;
+            display: flex;
+            flex-direction: column;
+          "
+        >
+          <b style="color: white">The Downsides of AI Artistry</b> <br />What
+          are the possible adverse effects of <br />on-demand AI image
+          generation?
+        </p>
+        <p
+          style="
+            font-size: 14px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: hsl(236, 13%, 42%);
+            line-height: 1.5;
+            display: flex;
+            flex-direction: column;
+          "
+        >
+          <b style="color: white"> Is VC Funding Drying Up?</b><br />
+          Private funding by VC firms is down 50% <br />YOY. We take a look at
+          what that means.
+        </p>
+      </div>
+
+      <div class="web4">
+        <div class="one">
+          <img style="width: 85px" src="./assets/images/image-retro-pcs.jpg" />
+          <div class="small1">
+            <span>01</span>
+            <p
+              style="
+                margin-top: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 12.5px;
+                color: grey;
+              "
+            >
+              <b style="color: black">Reviving Retro PCs</b><br /><br />What
+              happens when old PCs<br />
+              are given modern upgrades?
+            </p>
+          </div>
+        </div>
+
+        <div class="two">
+          <img
+            style="width: 85px"
+            src="./assets/images/image-top-laptops.jpg"
+          />
+          <div class="small1">
+            <span>02</span>
+            <p
+              style="
+                margin-top: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 12.5px;
+                color: grey;
+              "
+            >
+              <b style="color: black">Top 10 Laptops of 2022</b><br /><br />
+              Our best picks for various <br />needs and budgets.
+            </p>
+          </div>
+        </div>
+
+        <div class="three">
+          <img
+            style="width: 85px"
+            src="./assets/images/image-gaming-growth.jpg"
+          />
+          <div class="small1">
+            <span>03</span>
+            <p
+              style="
+                margin-top: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 12.5px;
+                color: grey;
+              "
+            >
+              <b style="color: black"> The Growth of Gaming</b><br /><br />
+              How the pandemic has sparked <br />fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
